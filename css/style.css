@@ -1,5 +1,6 @@
 body {
   margin: 0px;
+  background-color: black;
 }
 
 .overTopNav {
@@ -8,26 +9,18 @@ body {
   margin: auto;
 }
 
-.TopNav {
-  display: inline;
-}
-
 .tnLeft a {
-  margin: 0px 10px 0px 200px;
-  float: left;
   color: yellow;
+  font-family: 'Dancing Script', cursive;
+  text-decoration: none;
+  font-size: 1.5em;
 }
 
 .tnRight a {
-  float: right;
   color: white;
-  text-align: center;
-}
-
-.TopNav a {
-  padding: 14px 16px;
+  text-align: right;
   text-decoration: none;
-  font-size: 17px;
+  padding: 0 10px 0 10px;
 }
 
 .backImg {
@@ -35,7 +28,11 @@ body {
   z-index: -1;
   left: 50%;
   margin-left: -700px;
-  margin-top: 0px;
+  margin-top: -30px;
   padding: 0px;
+}
+
+.rowMargin {
+  margin-top: 30px;
 }
 /*# sourceMappingURL=style.css.map */
