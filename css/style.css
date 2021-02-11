@@ -10,7 +10,7 @@ body {
 }
 
 .tnLeft a {
-  color: yellow;
+  color: #fed136;
   font-family: 'Dancing Script', cursive;
   text-decoration: none;
   font-size: 1.5em;
@@ -21,6 +21,9 @@ body {
   text-align: right;
   text-decoration: none;
   padding: 0 10px 0 10px;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: Arial, sans-serif;
 }
 
 .backImg {
@@ -34,5 +37,52 @@ body {
 
 .rowMargin {
   margin-top: 30px;
+}
+
+.h2InWelcome {
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  font-style: italic;
+  font-family: Times, Times New Roman, serif;
+}
+
+.h1InNice {
+  color: white;
+  text-align: center;
+  font-size: 3em;
+  font-weight: 900;
+  font-family: Arial, sans-serif;
+}
+
+.centerInHeader {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 600px;
+}
+
+.btnTell {
+  color: white;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 700;
+  font-family: Arial, sans-serif;
+  background-color: #fed136;
+  padding: 20px 30px 20px 30px;
+  text-decoration: none;
+  border-radius: 0.5em;
+}
+
+.divBeforeBtnTell {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
 }
 /*# sourceMappingURL=style.css.map */

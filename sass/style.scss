@@ -1,4 +1,5 @@
 $marginFromTop: 30px;
+$darkYellow: #fed136;
 body{
     margin: 0px;
     background-color: black;
@@ -10,7 +11,7 @@ body{
 }
 
 .tnLeft a {
-    color: yellow;
+    color: $darkYellow;
     font-family: 'Dancing Script', cursive;
     text-decoration: none;
     font-size: 1.5em;
@@ -20,6 +21,9 @@ body{
     text-align: right;
     text-decoration: none;
     padding: 0 10px 0 10px;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: Arial, sans-serif;
 }
 .backImg{
     position: absolute;
@@ -31,4 +35,40 @@ body{
   }
   .rowMargin{
       margin-top: $marginFromTop;
+  }
+  .h2InWelcome{
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    font-style: italic;
+    font-family: Times, Times New Roman, serif;
+  }
+  .h1InNice{
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 900;
+    font-family: Arial, sans-serif;
+  }
+  .centerInHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+  }
+  .btnTell{
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 700;
+    font-family: Arial, sans-serif;
+    background-color: $darkYellow;
+    padding: 20px 30px 20px 30px;
+    text-decoration: none;
+    border-radius: 0.5em;
+  }
+  .divBeforeBtnTell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
