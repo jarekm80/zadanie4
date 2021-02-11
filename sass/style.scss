@@ -54,7 +54,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 600px;
+    height: 654px;
+   
   }
   .btnTell{
     color: white;
@@ -71,4 +72,53 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .servicesContainer{
+    background-color: white;
+    width: 1400px;
+    border: 0;
+    margin-left: +125px;
+    max-width: 1400px;
+  }
+  .servicesContainer h3{
+    margin-top: 3em;
+    font-size: 3em;
+    font-weight: 700;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-block-end: 0;
+  }
+  .pInServicesContainer{
+      text-align: center;
+      font-size: 1.5em;
+      font-style: italic;
+      font-family: Times, Times New Roman, serif;
+      margin-block-start: 0;
+      color: grey;
+      margin-bottom: 0;
+  }
+
+  .rowCentered960px h4{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 700;
+    font-family: Arial, sans-serif;
+  }
+  .rowCentered960px{
+    width: 960px;
+    max-width: 960px;
+    margin: auto;
+  }
+  .rowCentered960px i{
+    color:$darkYellow;
+    font-size: 4em;
+    text-align: center;
+    margin: 1em auto 0 auto;
+    width: 100%;
+  }
+  .pInCenetered960 {
+    color: #555;
+    text-align: center;
+    font-size: 1em;  
+    margin: 0 10px 0 10px;
   }
